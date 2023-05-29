@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crystal Ball</title>
+</head>
+<body>
+    <h1>Ask the Crystal Ball</h1>
+
+    <form action="/answer" method="POST">
+        <label for="question">Question:</label>
+        <input type="text" id="question" name="question" required>
+        <br>
+        <label for="document">Document:</label>
+        <textarea id="document" name="document" rows="5" required></textarea>
+        <br>
+        <input type="submit" value="Ask">
+    </form>
+</body>
+</html>
